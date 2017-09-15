@@ -1,0 +1,96 @@
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;   
+}
+
+.container{
+    width: 751px;
+}
+.header{
+    border-bottom: 2px solid #bacf4d;
+    text-align: right;
+    padding-right: 15px;
+}
+.section{
+    border-bottom: 2px solid #bacf4d;
+}
+.section h1{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.section h4{
+    background-color: #bacf4d;
+    padding: 7px 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.section>div.col-xs-4>ul{
+    padding: 5px 15px;
+    background-color: #e7e8e9;
+    margin-bottom: 15px;
+}
+.section>div.col-xs-8>ul{
+    padding: 20px 15px;
+    text-align: right;
+}
+
+.content{
+    padding-top: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 7px solid #bacf4d;
+}
+.content thead{
+    background-color: #bacf4d; 
+     border-bottom: 3px solid white;
+}
+.content thead th,.content tbody td{
+    border-right: 3px solid white;
+}
+.content tbody tr{
+    background-color: #e7e8e9;
+    border-bottom: 3px solid white;
+}
+
+
+.footer{
+    margin: 15px 0px;
+}
+.footer>.col-xs-4{
+    font-weight: bold;
+    text-align: right;
+}
+.footer>.col-xs-3 ul>li{
+    background-color: #e7e8e9;
+    border-bottom: 3px solid white;
+    padding-right: 15px;
+}
+.footer>.col-xs-3 ul{
+    padding-right: 2px;
+}
+.footer>.col-xs-3{
+    text-align: right;
+    padding: 0px;
+}
+.footer2 h3{
+    color: #bacf4d;
+    font-weight: bold;
+}
+.footer2 form{
+    text-align: center;
+    padding: 15px;
+}
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+
+

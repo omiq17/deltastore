@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+body{
+   font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.header img{
+    height: 55px;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+                            /**
+                             * Side bar
+                             */
+.sidebar{
+    background: #34495e;
+    padding: 0px;
+    
+}
+.content{
+    background: #ecf0f1;
+    padding-top: 11px;
+   
+}
+.header>div.col-md-4>.navbar-text{
+    float: right;
+    font-size: 17px;
+    line-height: 25px;
+    
+}
+.header{
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.sidebar>ul{
+    margin: 15px 0px;
+    height: 100%;
+}
+.sidebar>ul>li{
+    margin: 10px 0px;
+}
+.nav>li a {
+    -webkit-transition: 0.4s;
+    -moz-transition:0.4s;
+    -os-transition:0.4s;
+    
+    transition: 0.4s;
+    color:  azure;
+    
+}
+.nav>li>a:hover{
+    padding-left: 35px;
+     background-color: cadetblue;
+}
+
+.nav-pills>li>a {
+  border-radius: 2px;
+}
+
+                                    /**
+                                     * Button
+                                    */
+.content>div.row>.btn{
+    float: right;
+}
+
+                             /**
+                             * Content
+                             */
+.content>.row{
+    margin-top: 15px;
+    margin-bottom: 31px;
+}
+.rcorners1 {
+    border-radius: 25px 25px 0px;
+    background-color: #34495e;
+    text-align: center;
+    color: white;
+   
+}
+.rcorners2{
+    border-radius: 25px 25px 25px 0px ;
+    background-color: #34495e;
+    text-align: center;
+    color: white;
+}
+.rcorners3{
+    border-radius: 25px 0px 25px 0px;
+    background-color: #34495e;
+    text-align: center;
+    color: white;
+    margin-left: 7px;
+}
+.rcorners4{
+    border-radius: 0px 25px;
+    background-color: #34495e;
+    text-align: center;
+    color: white;
+    margin-right: 7px;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #34495e;
+    border: #34495e;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: cadetblue;
+    border: #34495e;
+}
+.profile{
+    float: right;
+    padding-top: 15px;
+}
+nav{
+    text-align: right;
+}
